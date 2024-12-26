@@ -10,8 +10,22 @@ This repository contains the code and notes for the **The Wild Oasis Website** p
 
 - [x] Project Initialization
 - [x] Pages and Routing
-- [ ] Data Fetching (getStaticProps / getServerSideProps)
+- [ ] Data Fetching
 - [ ] Dynamic Routing
 - [ ] API Routes
 - [ ] Styling
 - [ ] Deployment to Vercel
+
+## Themes
+
+- [default Loader](./app/loading.js)
+- [setting font](./app/layout.js)
+- [optimizing Images](./app/_components/Logo.js)
+
+## Reminders
+
+- _To start project_:
+
+  ```
+  	npx create-react-app@latest [project name]
+  ```
