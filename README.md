@@ -21,6 +21,7 @@ This repository contains the code and notes for the **The Wild Oasis Website** p
 - [default Loader](./app/loading.js)
 - [setting font](./app/layout.js)
 - [optimizing Images](./app/_components/Logo.js)
+- [nested Layout](./app/account/layout.js)
 
 ## Reminders
 
