@@ -10,7 +10,7 @@ This repository contains the code and notes for the **The Wild Oasis Website** p
 
 - [x] Project Initialization
 - [x] Pages and Routing
-- [ ] Data Fetching
+- [x] Data Fetching
 - [ ] Dynamic Routing
 - [ ] API Routes
 - [ ] Styling
@@ -22,6 +22,8 @@ This repository contains the code and notes for the **The Wild Oasis Website** p
 - [setting font](./app/layout.js)
 - [optimizing Images](./app/_components/Logo.js)
 - [nested Layout](./app/account/layout.js)
+- [fetch Data](./app/_lib/data-service.js)
+- [Suspense functionallity](./app/cabins/page.js)
 
 ## Reminders
 
