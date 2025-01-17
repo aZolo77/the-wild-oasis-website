@@ -11,8 +11,9 @@ This repository contains the code and notes for the **The Wild Oasis Website** p
 - [x] Project Initialization
 - [x] Pages and Routing
 - [x] Data Fetching
-- [ ] Dynamic Routing
-- [ ] API Routes
+- [x] Dynamic Routing
+- [x] Error Handling
+- [x] Data Cashing
 - [ ] Styling
 - [ ] Deployment to Vercel
 
@@ -24,6 +25,12 @@ This repository contains the code and notes for the **The Wild Oasis Website** p
 - [nested Layout](./app/account/layout.js)
 - [fetch Data](./app/_lib/data-service.js)
 - [Suspense functionallity](./app/cabins/page.js)
+- [dynamic Route Segments | dynamic Metadata](./app/cabins/[cabinId]/page.js)
+- [Error Boundary](./app/error.js)
+- [manually trigger `Not-Found Page`](./app/_lib/data-service.js)
+- [generating static pages with `generateStaticParams` function](./app/cabins/[cabinId]/page.js)
+- [revalidating Data Cash at the Route Level](./app/cabins/page.js)
+- [revalidating Data Cash at the Component Level](./app/_components/CabinList.js)
 
 ## Reminders
 

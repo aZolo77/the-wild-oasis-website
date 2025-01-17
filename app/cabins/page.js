@@ -3,6 +3,9 @@ import { Suspense } from "react";
 import CabinList from "@/app/_components/CabinList";
 import Spinner from "@/app/_components/Spinner";
 
+// + revalidate Data Cash at the Route Level (in seconds)
+export const revalidate = 3600;
+
 export const metadata = {
   title: "Cabins",
 };
