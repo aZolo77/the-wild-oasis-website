@@ -31,6 +31,8 @@ This repository contains the code and notes for the **The Wild Oasis Website** p
 - [generating static pages with `generateStaticParams` function](./app/cabins/[cabinId]/page.js)
 - [revalidating Data Cash at the Route Level](./app/cabins/page.js)
 - [revalidating Data Cash at the Component Level](./app/_components/CabinList.js)
+- [searchParams prop in Server Component makes it a dynamic Page](./app/cabins/page.js)
+- [using Client Filter Component to share URL's params](./app/_components/Filter.js)
 
 ## Reminders
 
