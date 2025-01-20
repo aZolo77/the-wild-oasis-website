@@ -33,6 +33,9 @@ This repository contains the code and notes for the **The Wild Oasis Website** p
 - [revalidating Data Cash at the Component Level](./app/_components/CabinList.js)
 - [searchParams prop in Server Component makes it a dynamic Page](./app/cabins/page.js)
 - [using Client Filter Component to share URL's params](./app/_components/Filter.js)
+- [getting and rendering Server Component as a Prop](./app/_components/UpdateProfileForm.js)
+- [using context API to provide reserved range of dates](./app/layout.js)
+- [creating API custom End Point](./app/api/cabins/[cabinId]/route.js)
 
 ## Reminders
 
