@@ -14,7 +14,7 @@ This repository contains the code and notes for the **The Wild Oasis Website** p
 - [x] Dynamic Routing
 - [x] Error Handling
 - [x] Data Cashing
-- [ ] Styling
+- [ ] Authentication
 - [ ] Deployment to Vercel
 
 ## Themes
@@ -36,6 +36,11 @@ This repository contains the code and notes for the **The Wild Oasis Website** p
 - [getting and rendering Server Component as a Prop](./app/_components/UpdateProfileForm.js)
 - [using context API to provide reserved range of dates](./app/layout.js)
 - [creating API custom End Point](./app/api/cabins/[cabinId]/route.js)
+- [authentication setup](./app/_lib/auth.js)
+- [geting session User Data](./app/_components/Navigation.js)
+- [Login Page](./app/login/page.js)
+- [Server Actions](./app/_lib/actions.js)
+- [adding Client Data to the Supabase on the User Authorization](./app/_lib/auth.js)
 
 ## Reminders
 
