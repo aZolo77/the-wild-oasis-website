@@ -1,7 +1,7 @@
 import { eachDayOfInterval } from "date-fns";
 import { notFound } from "next/navigation";
 
-import { supabase } from "./supabase";
+import { supabase } from "@/app/_lib/supabase";
 
 /////////////
 // GET
@@ -201,6 +201,7 @@ export async function updateGuest(id, updatedFields) {
     console.error(error);
     throw new Error("Guest could not be updated");
   }
+
   return data;
 }
 
@@ -216,6 +217,7 @@ export async function updateBooking(id, updatedFields) {
     console.error(error);
     throw new Error("Booking could not be updated");
   }
+
   return data;
 }
 
@@ -229,5 +231,6 @@ export async function deleteBooking(id) {
     console.error(error);
     throw new Error("Booking could not be deleted");
   }
+
   return data;
 }
