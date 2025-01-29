@@ -11,11 +11,12 @@ This repository contains the code and notes for the **The Wild Oasis Website** p
 - [x] Project Initialization
 - [x] Pages and Routing
 - [x] Data Fetching
+- [x] Data Updating
 - [x] Dynamic Routing
 - [x] Error Handling
 - [x] Data Cashing
-- [ ] Authentication
-- [ ] Deployment to Vercel
+- [x] Authentication
+- [x] Deployment to Vercel
 
 ## Themes
 
